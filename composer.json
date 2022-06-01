@@ -1,0 +1,23 @@
+{
+    "name": "sergey/test-framework",
+    "description": "Test framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sergey\\Framework\\": "core/",
+            "Sergey\\App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey",
+            "email": "Fenix00708@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/simple-cache": "^3.0.0",
+        "sergey00708/router": "dev-master"
+    }
+}
