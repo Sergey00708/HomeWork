@@ -34,7 +34,7 @@ class Router implements RouteInterface
         }
     }
 
-    public function resolveParameters($reflectionMethod)
+    private function resolveParameters($reflectionMethod)
     {
         foreach ($reflectionMethod->getParameters() as $parameter) {
             $name = $parameter->getName();
